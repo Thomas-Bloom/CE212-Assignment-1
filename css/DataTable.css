@@ -1,0 +1,7 @@
+body {margin: 4em; width: 400px}
+td {text-align: center}
+th {background: #33ccff}
+
+tr.even {background: #e6ffff}
+tr.even {color: red}
+tr.odd {background: #e6ffff}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/DataTable.css"/>
+    <meta charset="UTF-8">
+    <title>Dynamic Data Table</title>
+    <script language="JavaScript" src="../js/DataTable.js" type="text/javascript"></script>
+</head>
+<!--<body onload="table('conversion', 0, 30);">-->
+<h2>Dynamic Data Table - Exercise 1</h2>
+<body>
+<select id = "milesOrKilometres">
+    <option value = "MToK">Miles To Kilometres</option>
+    <option value = "KToM">Kilometres To M</option>
+</select>
+
+<form action="">
+    <p><textarea rows="1" name="FromInput" id="FromInput" cols="4"></textarea>
+        <textarea rows = "1" name="ToInput" id="ToInput" cols="4"></textarea>
+        <input type="button" value="Submit" name="B1" onclick="table('conversion', 0, 0);"><input type="reset" value="Clear" name="B2"></p>
+</form>
+<div id = "conversion"></div>
+</body>
+</html>

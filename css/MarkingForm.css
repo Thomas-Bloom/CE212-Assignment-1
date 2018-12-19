@@ -1,0 +1,6 @@
+tr{background: beige}
+td{border: 1px solid black; width: 100px}
+th{background: #33ccff; padding-right: 100px; text-align: center}
+#clearbut{background: #ffa0a0; color: black;}
+#mySelect{text-align: center;}
+textarea{resize: none}
